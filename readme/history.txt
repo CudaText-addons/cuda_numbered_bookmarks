@@ -1,0 +1,6 @@
+
+1.0.1 (feb 2016)
+-upd for new api
+
+1.0.0 (sep 2015)
+init
