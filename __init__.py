@@ -1,7 +1,7 @@
 from cudatext import *
 
-#bookmarks kinds: 241..249
-INDEX_ADD=240
+#bookmarks kinds: 1..9
+INDEX_ADD=1
 LINES_DEC=10
 
 def doset(id):
@@ -43,9 +43,7 @@ class Command:
         doset(7)
     def set8(self):
         doset(8)
-    def set9(self):
-        doset(9)
-        
+
     def goto1(self):
         dogoto(1)
     def goto2(self):
@@ -62,5 +60,3 @@ class Command:
         dogoto(7)
     def goto8(self):
         dogoto(8)
-    def goto9(self):
-        dogoto(9)

@@ -3,6 +3,7 @@ title=Numbered Bookmarks
 desc=Allows to set and go to numbered bookmarks (1..9)
 type=cudatext-plugin
 subdir=cuda_num_bookmarks
+homepage=https://github.com/CudaText-addons/cuda_numbered_bookmarks
 
 [item1]
 section=commands
@@ -36,10 +37,6 @@ method=set7
 section=commands
 caption=Numbered Bookmarks\Set bookmark 8
 method=set8
-[item9]
-section=commands
-caption=Numbered Bookmarks\Set bookmark 9
-method=set9
 
 [item10]
 section=commands
@@ -78,7 +75,3 @@ method=goto7
 section=commands
 caption=Numbered Bookmarks\Go to bookmark 8
 method=goto8
-[item19]
-section=commands
-caption=Numbered Bookmarks\Go to bookmark 9
-method=goto9

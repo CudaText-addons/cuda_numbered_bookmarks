@@ -1,6 +1,10 @@
 
-1.0.1 (feb 2016)
--upd for new api
+2017.12.08
+- update for new API
+* count of bookmarks is 8
 
-1.0.0 (sep 2015)
+2016.02
+- update for new API
+
+2015.09
 init
