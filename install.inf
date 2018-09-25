@@ -1,9 +1,10 @@
 [info]
 title=Numbered Bookmarks
-desc=Allows to set and go to numbered bookmarks (1..9)
+desc=Allows to set and go to numbered bookmarks (1..8)
 type=cudatext-plugin
 subdir=cuda_num_bookmarks
 homepage=https://github.com/CudaText-addons/cuda_numbered_bookmarks
+api=1.0.252
 
 [item1]
 section=commands
