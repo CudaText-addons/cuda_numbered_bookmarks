@@ -9,7 +9,7 @@ def doset(id):
     items = ed.bookmark(BOOKMARK_GET_LIST, 0)
     if items is not None:
         for item in items:
-            if ed.bookmark(BOOKMARK_GET, item)==id+INDEX_ADD:
+            if ed.bookmark(BOOKMARK_GET_PROP, item)['kind']==id+INDEX_ADD:
                 ed.bookmark(BOOKMARK_CLEAR, item)
     ed.bookmark(BOOKMARK_SET, line, id+INDEX_ADD)
     msg_status('Set bookmark %d' % id)
@@ -18,7 +18,7 @@ def dogoto(id):
     items = ed.bookmark(BOOKMARK_GET_LIST, 0)
     if items is not None:
         for item in items:
-            if ed.bookmark(BOOKMARK_GET, item)==id+INDEX_ADD:
+            if ed.bookmark(BOOKMARK_GET_PROP, item)['kind']==id+INDEX_ADD:
                 ed.set_caret(0, item, -1, -1)
                 ed.set_prop(PROP_LINE_TOP, str(item-LINES_DEC))
                 msg_status('Jump to bookmark %d' % id)

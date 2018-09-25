@@ -1,4 +1,7 @@
 
+2018.09.25
+- avoid deprecated API
+
 2017.12.08
 - update for new API
 * count of bookmarks is 8
@@ -7,4 +10,4 @@
 - update for new API
 
 2015.09
-init
+initail
