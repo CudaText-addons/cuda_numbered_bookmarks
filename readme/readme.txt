@@ -6,4 +6,4 @@ Gives commands to
 Numbered bookmarks behave like usual bookmarks, but they have special icon (with number) on the gutter, and only one bookmark with each index can be placed.
 
 License: MIT
-Author: Alexey (CudaText)
+Author: Alexey Torgashin (CudaText)
